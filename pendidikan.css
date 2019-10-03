@@ -1,0 +1,108 @@
+body{
+
+}
+#container{
+	background-color: grey;
+
+    width: 800px;
+    margin: 0 auto;
+ 
+}
+#headder{
+    background-color: #ddd;
+    min-height: 45px;
+    text-align: center;
+}
+#jumbotron{
+    width: 100%;
+    padding: 1px 0px;
+     text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    background-color: #aaa;
+}
+
+#jumbotron{
+    background-image: url("foto.jpg");   
+    background-size: cover;
+  
+}
+#jumbotron p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#foto{
+	margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 5px;
+    float: center;
+    position: relative;
+}
+
+#foto img{
+	margin-left: auto;
+	margin-right: auto;
+    width: 110%;
+    height: 110%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+#navbar{
+    min-height: 30px;
+    padding-left: 30px;
+
+}
+
+#dataku{
+
+    background-color: #ddd;
+    min-height: 300px;
+    padding-right: auto;
+    padding-left: auto;
+    overflow: auto;
+
+}
+#dataku h2{
+    border-bottom-style: solid;
+     width: 60%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+#dataku table{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+#dataku td{
+    border-bottom-style: solid;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'DM Sans', sans-serif;
+}
+#copyright{
+    text-align: right;
+}
